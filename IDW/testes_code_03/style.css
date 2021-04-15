@@ -1,0 +1,33 @@
+body{
+    background-color: lightgray;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-right: 100px;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px dotted black;
+    padding: 20px 30px 20px 30px;
+    margin-top: 10px;
+    
+    text-shadow: 2px 2px 5px purple;
+}
+
+h1{
+    
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px rgb(90, 41, 139);
+}
+.colorBlue{
+    color: blue;
+}
+
+#FirstP{
+    padding-top: 5px !important; 
+    padding-inline-start: 2cm;
+}
+#detach{
+    color: brown;
+    font-size: large;
+}
