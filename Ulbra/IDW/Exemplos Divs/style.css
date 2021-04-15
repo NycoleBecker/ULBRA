@@ -1,0 +1,29 @@
+
+
+.esquerda {			 
+	width: 30%;
+	height: 100px;
+	float: left; 
+	background-color: #666666; 
+	color: #ffffff;
+}
+.direita { 
+	width: 70%;
+	float: left; 
+	background-color: #aaaaaa; 
+}
+.unica{
+	clear: both; /* garante a posição abaixo da divs superiores (esquerda e direita),  */
+	background-color: #dddddd;
+	height: 50px;
+}
+
+body{
+	justify-content: center;
+	display: flex;	
+}
+.tudo{ 
+	width: 80%;
+	text-align: center;
+	border: 3px solid;		
+}
