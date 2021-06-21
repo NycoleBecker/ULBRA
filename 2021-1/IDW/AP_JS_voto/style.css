@@ -1,0 +1,10 @@
+h1{
+    background-color: black;
+    color: cadetblue;
+}
+
+button{
+    padding: 100px;
+    color: cadetblue;
+    border:black solid 25px;
+}

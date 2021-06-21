@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="script.js"> </script>
+    <link rel="stylesheet" href="style.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+    <header class="jumbroton" >
+        <h1 class="display-3 font-weight-bold pt-5 pb-5 pl-5">
+             EXERCÍCIOS:
+        </h1>
+    </header>
+
+    <section>
+        <article class="cor pt-0 text-center" >
+            <br><button onclick="botao1()">EXERCÍCIO 1</button>
+
+            <br><br><button onclick="botao2()">EXERCÍCIO 2</button>
+
+            <br><br><button onclick="botao3()">EXERCÍCIO 3</button>
+    
+            <br><br><button onclick="botao4()">EXERCÍCIO 4</button>
+
+            <br><br><button onclick="botao5()">EXERCÍCIO 5</button>
+            <br><br><br><br>
+        </article>
+
+        <article class="pt-5 pl-5 pb-5 bg-dark text-white">
+            <h2 class="pb-3 font-weight-bold corCalc">
+                CALCULADORA:
+            </h2>
+
+            NUMERO 1 : <input type="text" id="numero1">
+            <br>
+
+            OPERAÇÃO :
+            <select name="func" id="func">
+                <option value="+">Soma</option>
+                <option value="-">Subtrair</option>
+                <option value="*">Multiplicar</option>
+                <option value="/">Divisão</option>     
+            </select>
+
+            <br> NUMERO 2 : <input type="text" id="numero2">
+            <br>
+
+            <label for="resultado">RESULTADO:</label>
+
+            <button class="botao" onclick="botao6()">CLIQUE AQUI</button>
+        </article> 
+    </section>
+
+</body>
+</html>

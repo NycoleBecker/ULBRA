@@ -1,0 +1,22 @@
+h1{
+    background-color: black;
+    color: cadetblue;
+}
+
+.cor{
+    background-color: cadetblue;
+}
+
+#func{
+    padding-left: 63px;
+    padding-right: 23px;
+}
+
+.botao{
+    padding-left: 43px;
+    padding-right: 44px;
+}
+
+.corCalc{
+    color: cadetblue;
+}

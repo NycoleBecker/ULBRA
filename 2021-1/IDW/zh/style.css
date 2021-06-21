@@ -1,0 +1,60 @@
+.linhatop{
+    border: solid 1px black;
+}
+
+#aumentarletra{
+    font-size: 60px;
+}
+
+section{
+    border: solid 1px black;
+}
+
+.letraTema{
+    font-size: 11px ;
+}
+
+.img{
+    width: 236px; 
+}
+
+#imgExportacao{
+    height: 165px;
+}
+ 
+ .letra{
+     font-family:'Times New Roman', Times, serif;
+ }
+
+ .linha{
+     clear: both;
+ }
+
+.imgAside{
+    width: 125px;
+}
+.imgAsideGolpe{
+    width: 150px;
+    height: 110px;
+}
+
+.imgAsideChocolate{
+    width: 500px;
+    height: px;
+}
+
+#corAside{
+    background-color: rgb(250, 241, 235);
+}
+
+.iconeW{
+    width: 50px;
+}
+.texto{
+    text-align: justify;
+}
+.iconeFTI{
+    width: 35px;
+}
+
+

@@ -1,0 +1,13 @@
+.imagem{
+    height: 250px;
+    width: 100%;
+    background-size: cover;
+}
+
+.fundoNav{
+    background-color: #5f9fa0;
+}
+
+.corLink{
+    color: #5f9fa0;
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+    <header class=" borda container-fluid bg-dark">
+    <div class="jumbotron bg-dark">
+        <h1 class="display-4 font-weight-bold text-white">
+           JavaScript 
+        </h1>
+    </div>
+    </header>
+    
+    <section class="textoSub">
+        <article class="textoSub text-center">
+            <h1 class="pl-5 pt-5 pb-5 font-weight-bold fundoTitulos">CALCULADORA</h1><br>
+            <form class="pl-5 pb-5" action="#">
+                <h6>Digite os números desejados e selecione o operador.</h6>
+                <input type="number" id="valor1">
+                <br><select id="operacao">
+                    <option value="+">+</option>
+                    <option value="-">-</option>
+                    <option value="*">*</option>
+                    <option value="/">/</option>
+                </select>
+                <br><input type="number" id="valor2">
+                <br><button type="button" onclick="calculadora()">CALCULAR</button><br>
+                <br><h5>O resultado é:</h5>
+                <input class="font-weight-bold text-center" type="text" id="resultado">
+            </form>  
+        </article><br><br> 
+
+        <article class="textoSub text-left">
+            <h1 class="pt-5 pl-5 pb-5 font-weight-bold fundoTitulos">CONTA DE LUZ</h1><br>
+            <form class="pl-5 pb-5" action="#">
+                <h6>Digite a quantidade de Kwh consumidos:</h6>
+                <input id="quantidadeKwh" type="text"><br><br>
+
+                <h6>Digite o valor unitário do Kwh:</h6>
+                <input id="valorKwh" type="text">
+
+               <br><br><button onclick="contaDeLuz();">CALCULAR</button>   
+            </form>
+            <label class="pl-5 font-weight-bold" id="resultadoSemAumento"></label><br>
+            <label class="pl-5 font-weight-bold" id="resultadoAumento25"></label><br>
+            <label class="pl-5 font-weight-bold" id="resultadoAumento50"></label><br>   
+        </article>
+
+        <article class="pb-5 text-center">
+            <h1 class="pl-5 pt-5 pb-5 font-weight-bold fundoTitulos">NÚMEROS</h1><br>
+            <h6 class="pl-4">Digite os números desejados e clique em verificar.</h6>
+            <form class="" action="#">
+                <input type="text" id="numeros">
+                <button type="button" onclick="verificarNumeros()">Verificar números</button>
+            </form>
+            <label class="font-weight-bold" id="resultadoNumeros"></label>
+        </article>
+        
+        <article class="pb-5 text-left">
+            <h1 class="pl-5 pt-5 pb-5 font-weight-bold fundoTitulos">IDADES</h1><br>
+            <h6 class="pl-5">Digite as idades desejadas e clique em verificar.</h6>
+            <form class="pl-5 " action="#">
+                <input type="text" id="idades">
+                <button class="" type="button" onclick="verificarIdades()">Verificar idades</button>
+            </form>
+            <br><h5 class="pl-5">Idades Separadas: </h5>
+            <label class="pl-5 font-weight-bold" id="resultadoIdades"></label>
+        </article>
+    </section>
+
+    <footer class="borda container-fluid bg-dark text-right pr-5">
+        <div class="jumbotron bg-dark">
+            <h1 class="display-4 font-weight-bold text-white">
+               JavaScript 
+            </h1>
+        </div>
+    </footer>
+    
+
+</body>
+</html>

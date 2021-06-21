@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <header class="container-fluid border fundo pb-5 pt-5">
+            <h1 class="pt-5 pb-5 pl-5 fundo font-weight-bold">
+                Índice De Massa Corporal Em Adultos
+            </h1>
+    </header>
+    
+    <section>
+        <article class="container md-12 pt-5 pb-5">
+            <div class="row">
+                <form class="md-6 pt-4 pb-3 pl-4 pr-4 font-weight-bold" action="#">
+                    NOME: <input class="text-center pr-3" type="text" id="nome"><br>
+                    SEXO: <select id="sexo">
+                        <option value="feminino">FEMININO</option>
+                        <option value="masculino">MASCULINO</option>
+                        <option value="outro">BISSEXUAL</option>
+                        <option value="semResposta">PREFIRO NÃO DECLARAR</option>
+                    </select><br>
+                    PESO: <input class="pr-4" type="number" id="peso"><br>
+                    ALTURA:  <input class="pr-1" type="number" id="altura"><br>
+                    <br><button class="pr-5 pl-5 font-weight-bold" type="button" onclick="imcPessoa();">DESCOBRIR O SEU IMC</button>
+                </form>
+                <img class="img pt-2" src="/nice.jpg" alt="">   
+                <img class="img pt-5" src="/man.jpg" alt=""> 
+            </div>
+            <br>
+                <label class="pt-3 pb-3 pl-5 pr-5 font-weight-bold" id="imc">RESULTADO DO SEU IMC:</label>            
+        </article>
+    </section>
+
+    <footer class="container-fluid border fundo pb-5 pt-5 text-right">
+            <h1 class="pt-5 pb-5 pr-5 font-weight-bold fundo">
+                Índice De Massa Corporal Em Adultos
+            </h1>
+    </footer>
+</body>
+</html>
